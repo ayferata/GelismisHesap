@@ -93,7 +93,7 @@ public class JavaPatika {
         Scanner scan = new Scanner(System.in);
         System.out.print("Taban değeri giriniz : ");
         int base = scan.nextInt();
-        System.out.print("Üs değeri giriniz :");
+        System.out.print("Üs değeri giriniz : ");
         int exponent = scan.nextInt();
         int result = 1;
 
@@ -133,7 +133,7 @@ public class JavaPatika {
 
         do {
             System.out.println(menu);
-            System.out.print("Lütfen bir işlem seçiniz :");
+            System.out.print("Lütfen bir işlem seçiniz : ");
             select = scan.nextInt();
             switch (select) {
                 case 1:
@@ -157,7 +157,7 @@ public class JavaPatika {
                 case 0:
                     break;
                 default:
-                    System.out.println("Yanlış bir değer girdiniz, tekrar deneyiniz.");
+                    System.out.println("Yanlış bir değer girdiniz, tekrar deneyiniz. ");
             }
         } while (select != 0);
 
