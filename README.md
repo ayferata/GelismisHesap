@@ -50,7 +50,7 @@ public class JavaPatika {
         int number, result = 1, i = 1;
 
         while (true) {
-            System.out.print(i++ + ". sayı :");
+            System.out.print(i++ + ". sayı : ");
             number = scan.nextInt();
 
             if (number == 1)
@@ -68,7 +68,7 @@ public class JavaPatika {
 
     static void divided() {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Kaç adet sayı gireceksiniz :");
+        System.out.print("Kaç adet sayı gireceksiniz : ");
         int counter = scan.nextInt();
         double number, result = 0.0;
 
@@ -76,7 +76,7 @@ public class JavaPatika {
             System.out.print(i + ". sayı :");
             number = scan.nextDouble();
             if (i != 1 && number == 0) {
-                System.out.println("Böleni 0 giremezsiniz.");
+                System.out.println("Böleni 0 giremezsiniz. ");
                 continue;
             }
             if (i == 1) {
@@ -91,7 +91,7 @@ public class JavaPatika {
 
     static void power() {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Taban değeri giriniz :");
+        System.out.print("Taban değeri giriniz : ");
         int base = scan.nextInt();
         System.out.print("Üs değeri giriniz :");
         int exponent = scan.nextInt();
