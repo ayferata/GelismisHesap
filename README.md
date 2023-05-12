@@ -12,8 +12,7 @@
 import java.util.Scanner;
 
 public class JavaPatika {
-
-    static void plus() {
+  static void plus() {
         Scanner scan = new Scanner(System.in);
         int number, result = 0, i = 1;
         while (true) {
