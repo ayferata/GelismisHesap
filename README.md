@@ -28,12 +28,12 @@ public class JavaPatika {
 
     static void minus() {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Kaç adet sayı gireceksiniz :");
+        System.out.print("Kaç adet sayı gireceksiniz : ");
         int counter = scan.nextInt();
         int number, result = 0;
 
         for (int i = 1; i <= counter; i++) {
-            System.out.print(i + ". sayı :");
+            System.out.print(i + ". sayı : ");
             number = scan.nextInt();
             if (i == 1) {
                 result += number;
